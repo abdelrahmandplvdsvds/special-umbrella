@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: rgb(88, 88, 255);
+    direction: rtl;
+    height: 74px;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+    transition: 0.1s linear;
+    -webkit-transition: 0.1s linear;
+    -moz-transition: 0.1s linear;
+    -ms-transition: 0.1s linear;
+    -o-transition: 0.1s linear;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: tahoma;
+    color: white;
+    font-size: 20px;
+}
+nav ul :hover{
+    background-color: rgb(146, 146, 255);
+    
+}
+.main{
+    text-align: center;
+}
+/* الخضار */
+.الخضار{
+    /*border: 3px solid ;
+    */display: inline-block;
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+    margin-top: 60px;
+    box-shadow: 0px 0px 12px black ;
+    margin: 20px;
+}
+.الخضار img{
+    width: 200px;
+    
+}
+.الخضار h2{
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+.الخضار .السعر{
+    text-align: right;
+    padding: 20px;
+    font-size: 18px;
+}
+.الخضار .السعر  span{
+    color: red;
+}
+.p2{
+    border: 3px rgb(88, 88, 255) solid;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(88, 88, 255);
+    margin: 10px 20px;
+    color: white;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    transition: 0.1s linear;
+    -webkit-transition: 0.1s linear;
+    -moz-transition: 0.1s linear;
+    -ms-transition: 0.1s linear;
+    -o-transition: 0.1s linear;
+}
+.p2:hover{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+}
+h1{
+    font-size: 40px;
+    font-family: "Marhey", sans-serif;
+    text-align: center;
+    color: rgb(88, 88, 255);
+}
+section{
+    height: 12px;
+    background-color: rgb(88, 88, 255);
+}
+/* الخضار */
+@media(max-width:470px){
+    nav{
+        background-color: rgb(88, 88, 255);
+        direction: rtl;
+        height: 70px;
+        display: flex;
+    }
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+        padding: 25px;
+        transition: 0.1s linear;
+        -webkit-transition: 0.1s linear;
+        -moz-transition: 0.1s linear;
+        -ms-transition: 0.1s linear;
+        -o-transition: 0.1s linear;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-family: tahoma;
+        color: white;
+        font-size: 14px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    nav ul :hover{
+        background-color: rgb(146, 146, 255);
+        
+    }
+    .main{
+        text-align: center;
+    }
+        /* الخضار */
+    .الخضار{
+        /* border: 3px solid ; */
+        display: inline-block;
+        border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+    margin-top: 60px;
+    box-shadow: 0px 0px 12px black ;
+    margin: 20px;
+    }
+    .الخضار img{
+        width: 200px;
+        
+    }
+    .الخضار h2{
+        text-align: right;
+        padding-right: 20px;
+        padding-top: 15px;
+    }
+    .الخضار .السعر{
+        text-align: right;
+        padding: 20px;
+        font-size: 18px;
+    }
+    .الخضار .السعر  span{
+        color: red;
+    }
+    .p2{
+        border: 3px rgb(88, 88, 255) solid;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+        background-color: rgb(88, 88, 255);
+        margin: 10px 20px;
+        color: white;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+        transition: 0.1s linear;
+        -webkit-transition: 0.1s linear;
+        -moz-transition: 0.1s linear;
+        -ms-transition: 0.1s linear;
+        -o-transition: 0.1s linear;
+    }
+    .p2:hover{
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+    }
+    /* الخضار */
+}
